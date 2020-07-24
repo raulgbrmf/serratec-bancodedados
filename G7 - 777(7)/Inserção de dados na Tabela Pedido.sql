@@ -1,14 +1,14 @@
 INSERT into PEDIDO (DATA_PEDIDO ,ID_CLIENTE )
-values('16/03/2019',1);
+values('2020-07-23',1);
 
 INSERT into PEDIDO (DATA_PEDIDO ,ID_CLIENTE )
-values('19/05/2019',2);
+values('2020-07-23',2);
 
 INSERT into PEDIDO (DATA_PEDIDO ,ID_CLIENTE )
-values('24/08/2019',3);
+values('2020-07-23',3);
 
 INSERT into PEDIDO (DATA_PEDIDO ,ID_CLIENTE )
-values('02/11/2019',4);
+values('2020-07-23',4);
 
 INSERT into PEDIDO (DATA_PEDIDO ,ID_CLIENTE )
-values('11/04/2020',5);
+values('2020-07-23',5);
