@@ -38,7 +38,7 @@ CREATE TABLE Funcionario (
 CREATE TABLE Categoria(
     Id_Categoria serial primary key,
     Nome_Categoria varchar(50) not null,
-    Descricao varchar(50) not null,
+    Descricao varchar(100) not null,
 	Id_Funcionario integer,
 	foreign key (Id_Funcionario) references Funcionario
 );
@@ -49,7 +49,7 @@ CREATE TABLE Produto(
     Preco decimal not null,
     Estoque integer,
     Data_Fabricacao date not null,
-    Descricao varchar(50) not null,
+    Descricao varchar(100) not null,
     Id_Categoria integer,
     foreign key (Id_Categoria) references Categoria
     
